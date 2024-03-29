@@ -1,0 +1,7 @@
+load res/jpeg_test.jpg test
+sharpen test sharpen-test
+blur sharpen-test blured-test
+blue-component blured-test blue-test
+greyscale blue-test grey-test
+sepia grey-test sepia-test
+save res/blue-test.png sepia-test
