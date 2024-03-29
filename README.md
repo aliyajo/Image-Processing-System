@@ -41,8 +41,9 @@ run the Image Processing System.
 
 > space/pressing enter without input: To use GUI mode
 
-  Refer to the USEME file that goes through how to use this mode
-  USEME : USEME.pdf 
+  Refer to the USEME file that goes through how to use this mode.
+  
+  USEME: https://github.com/aliyajo/Image-Processing-System/blob/03f540c61dba28849fcc5e258746e3626d0d532a/USEME.pdf 
 
 ## Design ##
 This project has a MVC design pattern.
