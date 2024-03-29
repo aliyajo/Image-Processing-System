@@ -16,9 +16,13 @@ color transformations, and brightness transformations.
 - IntelliJ IDEA v.2023.3.6
 
 ## Usage Overview ##
-Once started, the program will and the first thing it will ask it which program you want to
-run the Image Processing System.
-> -text: To use the interactive command-line text-mode.
+Once started with running the IMEMain.java file, the program will and the first thing it will ask it which program you want to run the Image Processing System.
+  ![image](https://github.com/aliyajo/Image-Processing-System/assets/133428097/6b4e01c1-e301-47a8-8bdd-77436cfabbe9)
+
+> -text: To use the interactive command-line text-mode.  
+
+![image](https://github.com/aliyajo/Image-Processing-System/assets/133428097/f2daf275-360e-4623-a544-742928aecd0e)
+
   - brighten <increment> <filename> : This command increases the brightness of the entire image.
   - value-component <fileName> <newImageName>: This command converts the image to greyscal using the value component.
   - red-component<fileName> <newImageName>: This command converts the image to greyscale using the red component.
@@ -40,6 +44,8 @@ run the Image Processing System.
   at where you wanted the altered image to be saved at.
 
 > space/pressing enter without input: To use GUI mode
+
+![image](https://github.com/aliyajo/Image-Processing-System/assets/133428097/6c884cc5-1bdf-4ac2-b2b6-5af452549a49)
 
   Refer to the USEME file that goes through how to use this mode.
   
