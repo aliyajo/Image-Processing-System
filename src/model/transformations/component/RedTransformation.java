@@ -16,7 +16,7 @@ public class RedTransformation extends AbstractTransformation {
   public IImageState run(IImageState sourceImage) {
     //create new image
     IImage newImage = new ImageImpl(sourceImage.getWidth(), sourceImage.getHeight());
-    //Going to make each pixel brighten in the image
+    //Going to make each pixel to transform via setting pixels to the value of the red channel in the image
     for (int row = 0; row < sourceImage.getHeight(); row++) {
       for (int col = 0; col < sourceImage.getWidth(); col++) {
         int newR = clamp(sourceImage.getRedChannel(col, row));
