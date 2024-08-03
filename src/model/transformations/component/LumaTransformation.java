@@ -9,6 +9,7 @@ import model.transformations.AbstractTransformation;
  * This class extends the AbstractTransformation which implements the ITransformation Interface.
  * It is able to implement a run method to accurately cause a greyscale image through
  * the luma weighted equation sum.
+ * Sum is determined by the equation = 0.2126r + 0.7152g + 0.0722b
  */
 public class LumaTransformation extends AbstractTransformation {
 
@@ -16,7 +17,7 @@ public class LumaTransformation extends AbstractTransformation {
   public IImageState run(IImageState sourceImage) {
     //create new image
     IImage newImage = new ImageImpl(sourceImage.getWidth(), sourceImage.getHeight());
-    //Going to make each pixel brighten in the image
+    //Going to make each pixel to transform via luma color transofrmation equation. 
     for (int row = 0; row < sourceImage.getHeight(); row++) {
       for (int col = 0; col < sourceImage.getWidth(); col++) {
         //Use the weighted sum equation to determine Luma value.
