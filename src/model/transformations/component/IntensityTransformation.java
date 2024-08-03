@@ -16,7 +16,7 @@ public class IntensityTransformation extends AbstractTransformation {
   public IImageState run(IImageState sourceImage) {
     //create new image
     IImage newImage = new ImageImpl(sourceImage.getWidth(), sourceImage.getHeight());
-    //Going to make each pixel brighten in the image
+    //Going to make each pixel to transform via setting pixels to the average of the RGB channels
     for (int row = 0; row < sourceImage.getHeight(); row++) {
       for (int col = 0; col < sourceImage.getWidth(); col++) {
         //Find average out of the three RBG values.
